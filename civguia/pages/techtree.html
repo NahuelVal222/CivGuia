@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Nahuel Valentín">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Firjar:wght@100..800&family=Jim+Nightshade&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agrave+Pro:wght@100..700&family=Fira+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/styles.css">
 	<link rel="icon" type="image/png" href="../assets/logopagina.png">
     <title>Civs AOE2DE | Arbol Tecnologico</title>
 </head>
 <body>
     <header>
-		<div>
+		<div class="reproductor">
 			<span>Escucha el soundtrack original del juego original de 1999: </span>
 			<audio controls preload="none">
 				<source src="../assets/ostaoe2.mp3" type="audio/mpeg">
@@ -22,7 +30,7 @@
 			alt="Banner oficial con el logotipo de Age of Empires II: Definitive Edition" width="720" height="320">
 			<figcaption>Banner oficial de Age of Empires II: Definitive Edition.</figcaption>
 		</figure>
-        <div>
+        <div class="barraNavegacion">
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="./civilizaciones.html">Civilizaciones</a></li>
@@ -33,34 +41,32 @@
         </div>
     
     </header> 
-<main>
-    <h2>Los Arboles Tecnológicos</h2>
-    <section>
-        <article>
-            <p>
-                Cada civilizacion cuenta con un arbol tecnólogico unico con el cual se pueden desarrollar diversas estrategias.
-            </p>
-            <img src="../assets/romanos.jpg" alt="Icono de Romanos" width="40" height="40"> <strong>Los Romanos</strong>
-            <h3>Ventajas y desventajas de su árbol tecnológico</h3>
-            <ul>
-                <li><strong>Ventajas:</strong> cuentan con una infantería muy sólida, reforzada por su bonificación de ataque por edad y unidades como los legionarios y los alabarderos. También disponen de centuriones para apoyar al ejército y de opciones de asedio útiles, como los escorpiones.</li>
-                <li><strong>Desventajas:</strong> su ejército tiene menos opciones de primer nivel en otros frentes: no pueden entrenar arbalesteros ni paladines. Esto limita su flexibilidad a distancia y su acceso a la caballería pesada más avanzada.</li>
-            </ul>
-        </article>
+    <main>
+        <h2>Los Arboles Tecnológicos</h2>
+        <section>
+            <article class="ventajasYDesventajas">
+                <p>
+                    Cada civilizacion cuenta con un arbol tecnólogico unico con el cual se pueden desarrollar diversas estrategias.
+                </p>
+                <img src="../assets/romanos.jpg" alt="Icono de Romanos" width="40" height="40"> <strong>Los Romanos</strong>
+                <h3>Ventajas y desventajas de su árbol tecnológico</h3>
+                <ul>
+                    <li><strong>Ventajas:</strong> cuentan con una infantería muy sólida, reforzada por su bonificación de ataque por edad y unidades como los legionarios y los alabarderos. También disponen de centuriones para apoyar al ejército y de opciones de asedio útiles, como los escorpiones.</li>
+                    <li><strong>Desventajas:</strong> su ejército tiene menos opciones de primer nivel en otros frentes: no pueden entrenar arbalesteros ni paladines. Esto limita su flexibilidad a distancia y su acceso a la caballería pesada más avanzada.</li>
+                </ul>
+            </article>
+        </section>
+        <section class="volverInicio"><ul><li><a href="../index.html">Volver al Inicio</a></li></ul></section>
 
-    </section>
-
-
-</main>
-
-    
-<footer>
-    <p>&copy; Civguia - Todos los derechos reservados.</p>
-    <p>Civguia es una wiki creada por fans y no tiene fines de lucro.</p>
-    <ul>
-        <li><a href="https://discord.com" target="_blank" rel="noopener noreferrer">Discord de la comunidad</a></li>
-        <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Nuestro Instagram</a></li>
-    </ul>
-</footer>   
+    </main>
+   
+	<footer>
+		<p class="copyright">&copy; Civguia - Todos los derechos reservados.</p>
+		<p class="copyright">Civguia es una wiki creada por fans y no tiene fines de lucro.</p>
+		<ul class="listaRedes">
+			<li><a href="https://discord.com" target="_blank" rel="noopener noreferrer">Únete al Discord de la comunidad</a></li>
+			<li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Síguenos en nuestro Instagram</a></li>
+		</ul>
+	</footer>   
 </body>
 </html>

@@ -4,13 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Nahuel Valentín">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Firjar:wght@100..800&family=Jim+Nightshade&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Agrave+Pro:wght@100..700&family=Fira+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../styles/styles.css">
 	<link rel="icon" type="image/png" href="../assets/logopagina.png">
     <title>Civs AOE2DE | Todas las Civis</title>
 </head>
 <body>
 
     <header>
-		<div>
+		<div class="reproductor">
 			<span>Escucha el soundtrack original del juego original de 1999: </span>
 			<audio controls preload="none">
 				<source src="../assets/ostaoe2.mp3" type="audio/mpeg">
@@ -23,7 +30,7 @@
 			alt="Banner oficial con el logotipo de Age of Empires II: Definitive Edition" width="720" height="320">
 			<figcaption>Banner oficial de Age of Empires II: Definitive Edition.</figcaption>
 		</figure>
-        <div>
+        <div class="barraNavegacion">
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="#">Civilizaciones</a></li>
@@ -33,6 +40,7 @@
             </ul>
         </div>
     </header>
+	<main>
 		<section>
 			<article>
 				<h2>Las Civilizaciones</h2>
@@ -40,13 +48,13 @@
 				<p><strong>Conocerlas es fundamental para elegir la estrategia adecuada, aprovechar sus ventajas y estar preparado para enfrentarse a cualquier rival. ¡Es hora de descubrirlas!</strong></p>
 			</article>
 			
-			<article>
+			<article class="estadisticasCivs1v1">
 				<h3>Civilizaciones con mayor tasa de victorias</h3>
 				<p>Los porcentajes corresponden a tasas de victoria consultadas en diversas fuentes, por lo que podrían no ser totalmente precisos.</p>
 
 				<h4>Partidas clasificatorias 1v1</h4>
 				<p>Datos de 2026, Random Map:</p>
-				<ol>
+				<ol class="estadisticas">
 					<li><img src="../assets/romanos.jpg" alt="Icono de Romanos" width="40" height="40"> <strong>Romanos — 55,1 %.</strong>
 						Su infantería recibe el doble de efecto de las mejoras de armadura de la herrería. <a href="https://ageofempires.fandom.com/wiki/Romans_(Age_of_Empires_II)" target="_blank" rel="noopener noreferrer">Fuente wiki: Romanos</a></li>
 					<li><img src="../assets/armenios.jpg" alt="Icono de Armenios" width="40" height="40"> <strong>Armenios — 53,3 %.</strong>
@@ -58,10 +66,10 @@
 				<p>Fuente de estadísticas: <a href="https://aoebuddy.com/" target="_blank" rel="noopener noreferrer">AoE Buddy, estadísticas de civilizaciones</a>.</p>
 			</article>
 			
-			<article>
+			<article class="estadisticasCivsTG">
 				<h4>Partidas clasificatorias por equipos (TG)</h4>
 				<p>Datos de 2026, Random Map Team Game.</p>
-				<ol>
+				<ol class="estadisticas">
 					<li><img src="../assets/romanos.jpg" alt="Icono de Romanos" width="40" height="40"> <strong>Romanos — 54,7 %.</strong>
 						Sus aldeanos recolectan, construyen y reparan un 5 % más rápido; los escorpiones cuestan menos oro. <a href="https://ageofempires.fandom.com/wiki/Romans_(Age_of_Empires_II)" target="_blank" rel="noopener noreferrer">Fuente wiki: Romanos</a></li>
 					<li><img src="../assets/bulgaros.jpg" alt="Icono de Búlgaros" width="40" height="40"> <strong>Búlgaros — 53,0 %.</strong>
@@ -74,15 +82,19 @@
 				<p>Fuente de estadísticas: <a href="https://empirestats.online/civs" target="_blank" rel="noopener noreferrer">EmpireStats, estadísticas de civilizaciones</a>.</p>
 			</article>
 		</section>
-
+		<section class="volverInicio"><ul><li><a href="../index.html">Volver al Inicio</a></li></ul></section>
+	</main>
+	
+	<footer>
+		<p class="copyright">&copy; Civguia - Todos los derechos reservados.</p>
+		<p class="copyright">Civguia es una wiki creada por fans y no tiene fines de lucro.</p>
+		<ul class="listaRedes">
+			<li><a href="https://discord.com" target="_blank" rel="noopener noreferrer">Únete al Discord de la comunidad</a></li>
+			<li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Síguenos en nuestro Instagram</a></li>
+		</ul>
+	</footer>
 
 </body>
-<footer>
-    <p>&copy; Civguia - Todos los derechos reservados.</p>
-    <p>Civguia es una wiki creada por fans y no tiene fines de lucro.</p>
-    <ul>
-        <li><a href="https://discord.com" target="_blank" rel="noopener noreferrer">Discord de la comunidad</a></li>
-        <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Nuestro Instagram</a></li>
-    </ul>
-</footer>
+
+
 </html>

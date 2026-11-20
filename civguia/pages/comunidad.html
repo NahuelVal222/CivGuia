@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Nahuel Valentín">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Firjar:wght@100..800&family=Jim+Nightshade&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agrave+Pro:wght@100..700&family=Fira+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/styles.css">
 	<link rel="icon" type="image/png" href="../assets/logopagina.png">
     <title>Civs AOE2DE | Comunidad</title>
 </head>
 <body>
     <header>
-		<div>
+		<div class="reproductor">
 			<span>Escucha el soundtrack original del juego original de 1999: </span>
 			<audio controls preload="none">
 				<source src="../assets/ostaoe2.mp3" type="audio/mpeg">
@@ -22,7 +29,7 @@
 			alt="Banner oficial con el logotipo de Age of Empires II: Definitive Edition" width="720" height="320">
 			<figcaption>Banner oficial de Age of Empires II: Definitive Edition.</figcaption>
 		</figure>
-        <div>
+        <div class="barraNavegacion">
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="./civilizaciones.html">Civilizaciones</a></li>
@@ -39,7 +46,7 @@
                 <h2>La Comunidad del Juego</h2>
                 <p><strong>Age of Empires II</strong> ha trascendido generaciones. Con el paso de los años, su comunidad no solo se ha mantenido activa, sino que ha crecido y se ha fortalecido gracias a streamers y creadores de contenido como Mario Ovalle y NachoAOE,para el habla hispana, o T-90 y MembTV para el habla inglesa.</p>
                 <p>Dejaremos aquí sus canales de YouTube como agradecimiento por mantener viva esta hermosa comunidad.</p>
-                <ul>
+                <ul class="creadores">
                     <li><img src="../assets/logomarioovalle.webp" alt="Logo de Mario Ovalle en YouTube"width="40" height="40"><a href="https://www.youtube.com/@marioovalle" target="_blank" rel="noopener noreferrer">Mario Ovalle en YouTube</a></li>
                     <li><img src="../assets/logonachoaoe.webp" alt="Logo de NachoAoE en YouTube"width="40" height="40"><a href="https://www.youtube.com/@NachoAoE" target="_blank" rel="noopener noreferrer">NachoAOE en YouTube</a></li>
                     <li><img src="../assets/logot90oficial.webp" alt="Logo de T-90 en YouTube"width="40" height="40"><a href="https://www.youtube.com/@T90Official" target="_blank" rel="noopener noreferrer">T-90 en YouTube</a></li>
@@ -52,33 +59,35 @@
                 <p>Estamos comenzando y queremos reunir a jugadores de todos los niveles que compartan la misma pasión por el juego.
                     Aquí podrás encontrar gente con quien jugar, intercambiar consejos, aprender y pasar un buen rato. No importa tu ELO ni tu experiencia. Si disfrutas del Age, ya tienes un lugar entre nosotros.
                 </p>
-                <div>
+                <div class="listaRedes">
                     <ul><li><img src="../assets/logodiscord.webp" alt="Logo de discrod"width="40"height="40"><a href="https://discord.com" target="_blank" rel="noopener noreferrer">Nuestro canal de Discord</a></li></ul>
                 </div>
             </article>
             <article>
                 <h3>Nuestras Reglas</h3>
-                <ol>
+                <ul class="reglas">
                     <li>Respeto ante todo.</li>
                     <li>Competitividad si, toxicidad no</li>
                     <li>No a la discriminacion, bajo ningun concepto</li>
                     <li>Evita el spam y las provocaciones</li>
                     <li>Solo criticas constructivas</li>
-                </ol>
+                </ul>
                 <h4>Importante!</h4>
                 <p><strong>Los moderadores</strong> podrán intervenir cuando una conversación perjudique el buen ambiente de la comunidad. Si no estás de acuerdo con una decisión, háblalo de forma respetuosa y por privado.</p>   
                 <p>El no respetar nuestras normas puede resultar en una expulsion permanente de la comunidad</p>
          </article>
-         <span>14 Gente</span>
+         <span class="despedida">14 Gente</span>
         </section>
+        <section class="volverInicio"><ul><li><a href="../index.html">Volver al Inicio</a></li></ul></section>
     </main>
-<footer>
-    <p>&copy; Civguia - Todos los derechos reservados.</p>
-    <p>Civguia es una wiki creada por fans y no tiene fines de lucro.</p>
-    <ul>
-        <li><a href="https://discord.com" target="_blank" rel="noopener noreferrer">Discord de la comunidad</a></li>
-        <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Nuestro Instagram</a></li>
-    </ul>
-</footer>   
+    
+	<footer>
+		<p class="copyright">&copy; Civguia - Todos los derechos reservados.</p>
+		<p class="copyright">Civguia es una wiki creada por fans y no tiene fines de lucro.</p>
+		<ul class="listaRedes">
+			<li><a href="https://discord.com" target="_blank" rel="noopener noreferrer">Únete al Discord de la comunidad</a></li>
+			<li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Síguenos en nuestro Instagram</a></li>
+		</ul>
+	</footer>  
 </body>
 </html>

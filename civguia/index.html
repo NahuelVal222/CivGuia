@@ -4,13 +4,20 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Nahuel Valentín">
+	<link rel="stylesheet" href="./styles/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Firjar:wght@100..800&family=Jim+Nightshade&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Agrave+Pro:wght@100..700&family=Fira+Sans&display=swap" rel="stylesheet">
 	<link rel="icon" type="image/png" href="./assets/logopagina.png">
 	<title>Civguia AOE2DE | Inicio</title>    
 </head>
 
 <body>
 	<header>
-		<div>
+		<div class="reproductor">
 			<span>Escucha el soundtrack original del juego original de 1999: </span>
 			<audio controls preload="none">
 				<source src="./assets/ostaoe2.mp3" type="audio/mpeg">
@@ -23,7 +30,7 @@
 			alt="Banner oficial con el logotipo de Age of Empires II: Definitive Edition" width="720" height="320">
 			<figcaption>Banner oficial de Age of Empires II: Definitive Edition.</figcaption>
 		</figure>
-		<nav>
+		<nav class="barraNavegacion">
 			<ul>
 				<li><a href="#">Inicio</a></li>
 				<li><a href="./pages/civilizaciones.html">Civilizaciones</a></li>
@@ -36,8 +43,8 @@
 	<main>
 		<section>
 			<h2>Historia del juego</h2>
-			<article>
-				<h3>De Age of Kings a Definitive Edition</h3>
+			<h3>De Age of Kings a Definitive Edition</h3>
+			<article class="historia">				
 				<p>Age of Empires II se lanzó originalmente en 1999 y llevó a los jugadores a construir civilizaciones y librar batallas ambientadas en la Edad Media. Tras recibir expansiones y una edición en alta definición, en 2019 llegó Age of Empires II: Definitive Edition, una versión remasterizada con gráficos 4K, banda sonora renovada y contenido adicional. Desde entonces, nuevas expansiones han seguido ampliando sus civilizaciones y campañas.</p>
 				<p>El juego aumentó notablemente su popularidad gracias a la creciente escena competitiva, en la cual se han llevado a cabo diversos torneos por cuantiosas sumas de dinero.</p>
 				<p>En este sitio trataremos de buscar el punto fuerte de cada estilo de juego basándonos en las civilizaciones y las estrategias que permite cada una</p>
@@ -45,21 +52,16 @@
 		</section>
 		<section>
 			<h2>Objetivo</h2>
-
-			<p>Este sitio recopila ventajas y desventajas de cada civilización del juego, tanto para partidas 1v1 como para partidas por equipos (TGs).</p>
-
+			<p class="objetivo">Este sitio recopila ventajas y desventajas de cada civilización del juego, tanto para partidas 1v1 como para partidas por equipos (TGs).</p>
 			<h3>Dividiremos el contenido de la siguiente manera:</h3>
-			<ul>
-				<li>Análisis de civilizaciones para partidas 1v1 y por equipos (TGs).
-					<p>Utilizaremos estadísticas actuales y citaremos cada fuente.</p>
+			<ul class="listaIndice">
+				<li>Análisis de civilizaciones para partidas 1v1 y por equipos (TGs). Al mostrar estadisticas, citaremos sus fuente.
 				</li>
-				<li>Árboles tecnológicos completos y actualizados.
-					<p>Al día con el último parche del juego.</p>
-				</li>
+				<li>Árboles tecnológicos completos y actualizados, al día con el último parche del juego.</li>
 			</ul>
 		</section>
 		<section>
-			<h2>Todas las civilizaciones</h2>
+			<h2>Todas las civilizaciones:</h2>
 			<figure>
 				<img src="./assets/tablaCivilizaciones.png"
 					alt="Tabla de civilizaciones disponibles en Age of Empires II: Definitive Edition" width="640" height="520">
@@ -73,11 +75,11 @@
 	</main>
 
 	<footer>
-		<p>&copy; Civguia - Todos los derechos reservados.</p>
-		<p>Civguia es una wiki creada por fans y no tiene fines de lucro.</p>
-		<ul>
-			<li><a href="https://discord.com" target="_blank" rel="noopener noreferrer">Discord de la comunidad</a></li>
-			<li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Nuestro Instagram</a></li>
+		<p class="copyright">&copy; Civguia - Todos los derechos reservados.</p>
+		<p class="copyright">Civguia es una wiki creada por fans y no tiene fines de lucro.</p>
+		<ul class="listaRedes">
+			<li><a href="https://discord.com" target="_blank" rel="noopener noreferrer">Únete al Discord de la comunidad</a></li>
+			<li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Síguenos en nuestro Instagram</a></li>
 		</ul>
 	</footer>
 </body>

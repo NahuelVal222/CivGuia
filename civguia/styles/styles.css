@@ -1,0 +1,134 @@
+/*
+FUENTES
+
+font-family: "Jim Nightshade", cursive; - Para titulos
+font-family: "Agrave Pro", cursive; - Para contenido
+
+*/
+
+/* Encabezado */
+header figure img{
+    width: 720px;
+    height: 340px;
+    object-fit: fill;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+header figure figcaption{
+    color: #f5f5dc;
+    font-size: 1rem;
+}
+.reproductor{
+    color: #ffebcd;
+    align-items: center;
+    text-align: center;
+}
+/* Imagen de fondo */
+body{
+    background-image: url(../assets/background.jpg);
+    background-position: center;
+    background-color: #383741;
+    text-align: center;
+}
+/* Barra navegacion */
+.barraNavegacion ul li{
+    list-style: none;
+}
+.barraNavegacion ul li a{
+    text-decoration: none;
+    color: #c0def2;
+}
+/*Titulos*/
+h1{
+    color: #0099ff;
+    font-family: "Jim Nightshade", Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+}
+
+/* Subtitulos */
+h2{
+    color: #ff0000;
+    text-decoration: underline;
+    font-size: 2rem;
+
+}
+h3{
+    color: #8d76f4;
+    font-size: 1.5rem;
+}
+h4{
+   color: #f47676;
+   font-size: 24px; 
+}
+/* Contenido */
+.listaIndice{
+    color: #ffebcd;
+    text-decoration: none;
+    font-size: 20px;
+}
+p {
+    color: #ff9f9f;
+    font-family: "Agrave Pro", cursive;
+    font-size: 18px;
+}
+.creadores li a{
+    font-size: 25px;
+    color: #d0c7fa;
+    text-decoration: underline;
+}
+.estadisticasCivs1v1 ol li{
+     color: #ffebcd;
+    text-decoration: none;
+    font-size: 20px;
+}
+.estadisticasCivsTG ol li{
+     color: #ffebcd;
+    text-decoration: none;
+    font-size: 20px;
+}
+.ventajasYDesventajas ul li{
+     color: #ffebcd;
+    text-decoration: none;
+    font-size: 20px;
+}
+.ventajasYDesventajas strong{
+     color: #ffebcd;
+    text-decoration: none;
+    font-size: 20px;
+}
+.reglas{
+    color: #ffebcd;
+    text-align: center;
+    text-decoration:dotted;
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+}
+.volverInicio ul li a{
+    list-style: none;
+    color: #ffebcd;
+    text-align: center;
+    text-decoration:underline;
+    font-size: 25px;
+}
+/*  footer  */
+.copyright{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: #f5f5f5;
+}
+.listaRedes li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #c0def2;
+}
+.estadisticas li{
+    list-style: none;
+}
+.despedida{
+    color: #ff0000;
+    font-size: 28px;
+    text-decoration: underline;
+}

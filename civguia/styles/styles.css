@@ -6,23 +6,41 @@ font-family: "Agrave Pro", cursive; - Para contenido
 
 */
 
+/*  Reseteo */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* Encabezado */
 header figure img{
-    width: 720px;
-    height: 340px;
+    width: 920px;
+    height: 360px;
     object-fit: fill;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 header figure figcaption{
     color: #f5f5dc;
     font-size: 1rem;
+    text-align: center;
 }
 .reproductor{
-    color: #ffebcd;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
+    justify-content: space-around;
+    gap: 15px;
+    border: solid 2px #bfff00;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: hsla(240, 7%, 17%, 0.400);
+}
+.reproductor span{
+    font-size: 24px;
+    color: #c0def2;
 }
 /* Imagen de fondo */
 body{
@@ -32,76 +50,144 @@ body{
     text-align: center;
 }
 /* Barra navegacion */
-.barraNavegacion ul li{
+
+.barraNavegacion ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
     list-style: none;
+    font-size: 25px;
+    width: fit-content;
+    justify-content: space-around;
+    border: solid 2px #ff0000;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: hsla(240, 7%, 17%, 0.400);
+}
+.barraNavegacion a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.barraNavegacion a:hover {
+  color: #007bff;
 }
 .barraNavegacion ul li a{
     text-decoration: none;
     color: #c0def2;
 }
-/*Titulos*/
+/*  Titulo    */
 h1{
     color: #0099ff;
     font-family: "Jim Nightshade", Arial, Helvetica, sans-serif;
-    font-size: 4rem;
+    font-size: 4.5rem;
+    text-decoration: none;
+    list-style: none;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: hsla(240, 7%, 17%, 0.400);
 }
 
 /* Subtitulos */
 h2{
-    color: #ff0000;
+    color: #d4ff00;
+    font-size: 3rem;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
     text-decoration: underline;
-    font-size: 2rem;
-
+    background-color: hsla(240, 7%, 17%, 0.400);
 }
 h3{
     color: #8d76f4;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    text-decoration: none;
+    list-style: none;
+    width: fit-content;
+    border: solid 2px #ff0000;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: hsla(240, 7%, 17%, 0.400);
 }
 h4{
-   color: #f47676;
-   font-size: 24px; 
+    color: #f47676;
+    font-size: 24px;
+    text-decoration: none;
+    list-style: none;
+    width: fit-content;
+    border: solid 2px #ff0000;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: hsla(240, 7%, 17%, 0.400);
+
 }
+
 /* Contenido */
-.listaIndice{
+
+.listaIndice {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    gap: 25px; 
+    list-style: none;
+    padding: 0;
+}
+.listaIndice li {
     color: #ffebcd;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
+    border: solid 2px #ff0000;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: hsla(240, 7%, 17%, 0.400);
 }
 p {
     color: #ff9f9f;
     font-family: "Agrave Pro", cursive;
     font-size: 18px;
+    background-color: hsla(240, 7%, 17%, 0.400); 
 }
 .creadores li a{
     font-size: 25px;
     color: #d0c7fa;
     text-decoration: underline;
+    background-color: hsla(240, 7%, 17%, 0.400); 
 }
 .estadisticasCivs1v1 ol li{
      color: #ffebcd;
     text-decoration: none;
     font-size: 20px;
+    background-color: hsla(240, 7%, 17%, 0.400); 
 }
 .estadisticasCivsTG ol li{
      color: #ffebcd;
     text-decoration: none;
     font-size: 20px;
+    background-color: hsla(240, 7%, 17%, 0.400); 
 }
 .ventajasYDesventajas ul li{
      color: #ffebcd;
     text-decoration: none;
     font-size: 20px;
+    background-color: hsla(240, 7%, 17%, 0.400); 
 }
 .ventajasYDesventajas strong{
      color: #ffebcd;
     text-decoration: none;
     font-size: 20px;
+    background-color: hsla(240, 7%, 17%, 0.400); 
 }
 .reglas{
     color: #ffebcd;
     text-align: center;
     text-decoration:dotted;
     font-size: 20px;
+    background-color: hsla(240, 7%, 17%, 0.400); 
 }
 ul{
     list-style: none;
@@ -112,17 +198,127 @@ ul{
     text-align: center;
     text-decoration:underline;
     font-size: 25px;
+    background-color: hsla(240, 7%, 17%, 0.400); 
 }
+.historia{
+    background-color: hsla(240, 7%, 17%, 0.400);    
+}
+.tarjHistoriaIndex{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    justify-content: space-around;
+    gap: 25px;
+    border: solid 2px #ff0000;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px auto;
+    font-size: 24px;
+    background-color: hsla(240, 7%, 17%, 0.400);
+}
+.objetivo{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    justify-content: space-around;
+    gap: 25px;
+    border: solid 2px #ff0000;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px auto;
+    font-size: 24px;
+    background-color: hsla(240, 7%, 17%, 0.400);    
+}
+.tablaCivisIndex figcaption{
+    color: #f5f5dc;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.resumenCivisIndex{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    justify-content: space-around;
+    gap: 25px;
+    border: solid 2px #ff0000;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px auto;
+    font-size: 24px;
+    background-color: hsla(240, 7%, 17%, 0.400);  
+}
+
+/* HTML expansiones */
+
+.parchesDLC li article{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 25px;
+    border: solid 2px #ff0000;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px auto;
+    background-color: hsla(240, 7%, 17%, 0.400);
+}
+.parchesDLC li article p{
+    font-size: 26px;
+}
+.parchesDLC li article p strong{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.introDLCs{
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 25px;
+    border: solid 2px #ff0000;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px auto;
+    font-size: 24px;
+    background-color: hsla(240, 7%, 17%, 0.400);
+}
+
 /*  footer  */
-.copyright{
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+.copyright {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     color: #f5f5f5;
+    background-color: hsla(240, 7%, 17%, 0.400);
+    margin: 5px 0;
+    padding: 5px 10px;
 }
-.listaRedes li a{
+.listaRedes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+.listaRedes li a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: #c0def2;
+    background-color: hsla(240, 7%, 17%, 0.400);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+}
+.listaRedes li a:hover {
+    color: #ffffff;
+    background-color: hsla(240, 7%, 17%, 0.700);
 }
 .estadisticas li{
     list-style: none;
@@ -131,4 +327,5 @@ ul{
     color: #ff0000;
     font-size: 28px;
     text-decoration: underline;
+    background-color: hsla(240, 7%, 17%, 0.400); 
 }
